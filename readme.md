@@ -1,7 +1,7 @@
 # Django Associations
 Now that you have some familiarity with reading and validating records from the database it's time to explore **associations**. 
 
-In this challenge you'll be using the following Django associations:
+In this challenge, you'll be using the following Django associations:
 
 * ForeignKey (for one to many / many to one associations)
 * ManyToManyField (for many to many associations)
