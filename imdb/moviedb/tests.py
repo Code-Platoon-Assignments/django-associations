@@ -8,6 +8,7 @@ class AssociationTestCase(TestCase):
         self.actor.save()
         self.movie = Movie()
         self.movie.save()
+        self.movie.actors.add(self.actor)
         self.role  = Role(movie=self.movie, actor=self.actor)
         self.role.save()
 
